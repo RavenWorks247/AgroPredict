@@ -1,0 +1,21 @@
+#TO GET REPLY FOR THE MAIN PROMPT (consists of atleast 2 contents from crop, season or time, and Region)
+
+curl -m 70 -X POST https://REGION-PROJECT_ID.cloudfunctions.net/analyze_crop_suitability \
+-H "Authorization: bearer $(gcloud auth print-identity-token)" \
+-H "Content-Type: application/json" \
+-d '{
+  "sentence": "Can I grow wheat in Rajasthan during summer?"
+}' > output.json
+python stranalysis.py
+
+
+
+#TO CHAT WITH THE AI RELATED TO THE CONTEXT
+
+curl -m 70 -X POST https://REGION-PROJECT_ID.cloudfunctions.net/analyze_crop_suitability \
+-H "Authorization: bearer $(gcloud auth print-identity-token)" \
+-H "Content-Type: application/json" \
+-d '{
+  "message": "Tell me more about crops that can be grown in Rajasthan."
+}' > output.json
+python strresponse.py
