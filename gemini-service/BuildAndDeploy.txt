@@ -1,0 +1,8 @@
+gcloud builds submit --tag gcr.io/PROJECT_ID/CLOUDRUN_NAME
+gcloud run deploy CLOUDRUN_NAME \
+  --image gcr.io/PROJECT_ID/crop-analysis-app \
+  --region ENTER_REGION \
+  --memory 16Gi \
+  --cpu 4 \
+  --platform managed \
+  --allow-unauthenticated
