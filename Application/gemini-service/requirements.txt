@@ -1,9 +1,0 @@
-google-cloud-aiplatform>=1.35.0
-flask
-transformers
-torch
-vertexai
-gunicorn
-functions-framework
-google-cloud-storage
-python-dotenv
