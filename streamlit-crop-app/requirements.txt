@@ -1,5 +1,0 @@
-streamlit
-requests
-firebase-admin
-pyrebase4
-python-dotenv

@@ -1,3 +1,0 @@
-docker build -t gcr.io/tryinhard/streamlit-crop-app .
-docker push gcr.io/tryinhard/streamlit-crop-app
-gcloud run deploy streamlit-crop-app --image gcr.io/tryinhard/streamlit-crop-app --platform managed --region us-east1 --memory 4Gi --cpu 2 --allow-unauthenticated
