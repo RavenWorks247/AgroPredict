@@ -26,7 +26,7 @@ Clone the AgroPredict repository to your local machine:
 
 ```bash
 git clone https://github.com/RavenWorks247/AgroPredict
-cd AgroPredict_main
+cd AgroPredict
 ```
 
 ---
@@ -62,7 +62,7 @@ AgroPredict deployment is managed through a single shell script (`execall.sh`). 
 1. **Navigate to the main directory:**
 
    ```bash
-   cd AgroPredict_main
+   cd Application
    ```
 
 2. **Execute the deployment script:**
