@@ -15,8 +15,8 @@
               |
               v
 +------------------------------+
-| Extract Crop and Region      |
-| using NLP                    |
+| Extract Crop and Region and  |
+| Time period using NLP        |
 +------------------------------+
               |
               v
