@@ -2,7 +2,7 @@
 
 AgroPredict is an advanced AI-powered crop recommendation system designed to assist farmers in making informed decisions about crop selection based on various environmental and historical factors. This guide will walk you through the steps to deploy and use AgroPredict.
 
-![AgroPredict Screenshot](images/txfiainh.png)
+![txfiainh](https://github.com/user-attachments/assets/481470c8-c565-48a0-996f-3fc579d98959)
 
 ---
 
