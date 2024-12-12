@@ -3,7 +3,7 @@ gcloud builds submit --tag gcr.io/PROJECT_ID/crop-analysis-app
 gcloud run deploy crop-analysis-app \
   --image gcr.io/PROJECT_ID/crop-analysis-app \
   --region ENTER_REGION \
-  --memory 16Gi \
+  --memory 8Gi \
   --cpu 4 \
   --platform managed \
   --allow-unauthenticated
