@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+
+[theme]
+primaryColor = "#4CAF50"              # A fresh green for primary elements like buttons
+backgroundColor = "#E8F5E9"           # A very light green for the app's background
+secondaryBackgroundColor = "#C8E6C9"  # A soft green for secondary sections
+textColor = "#2C6B45"                 # A darker green for text to ensure readability
+font = "Arial"                        # A clean, nature-friendly font
